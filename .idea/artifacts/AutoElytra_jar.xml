@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AutoElytra:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AutoElytra_jar</output-path>
+    <root id="archive" name="AutoElytra.jar">
+      <element id="module-output" name="AutoElytra" />
+    </root>
+  </artifact>
+</component>

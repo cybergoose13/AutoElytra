@@ -1,0 +1,8 @@
+me\cybergoose\autoelytra\utils\ConfigChecker.class
+me\cybergoose\autoelytra\utils\ElytraRecipe.class
+me\cybergoose\autoelytra\interfaces\AutoElytraInterface.class
+me\cybergoose\autoelytra\Autoelytra.class
+me\cybergoose\autoelytra\handlers\ElytraCraftedEventHandler.class
+me\cybergoose\autoelytra\utils\IgnoreItemCheck.class
+me\cybergoose\autoelytra\utils\ChestPlate.class
+me\cybergoose\autoelytra\handlers\PlayerMoveEventHandler.class

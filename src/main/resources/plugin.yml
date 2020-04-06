@@ -1,0 +1,6 @@
+name: AutoElytra
+version: ${project.version}
+main: me.cybergoose.autoelytra.Autoelytra
+api-version: 1.15
+author: Cybergoose
+description: ${project.description}
