@@ -2,7 +2,7 @@
 * Title:    Auto Elytra
 * Author:   Cyber Goose
 * Date:     31/3/20
-* Updated:  4/6/20
+* Updated:  24/12/20
 *
 * TODO:
 * */
@@ -24,7 +24,7 @@ public final class Autoelytra extends JavaPlugin {
         loadConfig();
         this.getServer().getPluginManager().registerEvents(new PlayerMoveEventHandler(), this);
         this.getServer().getPluginManager().registerEvents(new ElytraCraftedEventHandler(), this);
-        new ElytraRecipe();
+        if(ConfigChecker.isCraftable()) new ElytraRecipe();
         this.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + this.getName() + " is enabled.");
     }
 
