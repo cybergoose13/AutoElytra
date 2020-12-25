@@ -1,6 +1,0 @@
-name: AutoElytra
-version: 2.0
-main: me.cybergoose.autoelytra.Autoelytra
-api-version: 1.16
-author: Cybergoose
-description: AutoElytra equips your armor or your elytra if either is held in your off hand.
