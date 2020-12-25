@@ -2,7 +2,7 @@
  * File: ChestPlate.java
  * Author:   Cyber Goose
  * Date:     31/3/20
- * Update:   31/3/20
+ * Update:   24/12/20
  * Description:  Holds the different types of armor and compares to item held or equipped.
  * TODO:     add comments
  * */
@@ -19,7 +19,8 @@ public enum ChestPlate {
     LEATHER(Material.LEATHER_CHESTPLATE),
     GOLD(Material.GOLDEN_CHESTPLATE),
     IRON(Material.IRON_CHESTPLATE),
-    DIAMOND(Material.DIAMOND_CHESTPLATE);
+    DIAMOND(Material.DIAMOND_CHESTPLATE),
+    NETHER(Material.NETHERITE_CHESTPLATE);
 
     private final Material type;
 
