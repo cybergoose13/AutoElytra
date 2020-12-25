@@ -23,7 +23,6 @@ public final class Autoelytra extends JavaPlugin {
         // Plugin startup logic
         loadConfig();
         this.getServer().getPluginManager().registerEvents(new PlayerMoveEventHandler(), this);
-        this.getServer().getPluginManager().registerEvents(new ElytraCraftedEventHandler(), this);
         if(ConfigChecker.isCraftable()) new ElytraRecipe();
         this.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + this.getName() + " is enabled.");
     }
