@@ -23,7 +23,7 @@ public class ElytraRecipe implements AutoElytraInterface {
         shapedRecipe.shape("PEP", "PDP", "P P");
         shapedRecipe.setIngredient('P', Material.PHANTOM_MEMBRANE);
         shapedRecipe.setIngredient('E', Material.ENDER_EYE);
-        shapedRecipe.setIngredient('D', Material.DIAMOND_CHESTPLATE);
+        shapedRecipe.setIngredient('D', Material.NETHERITE_CHESTPLATE);
         PLUGIN.getServer().addRecipe(shapedRecipe);
     }
 }
